@@ -25,9 +25,9 @@ Recently there was a nationwide scandal about an incident at Frankfurt Central S
 ### Subway Station Simulation ###
 For our simulation we developed 10 different types of subway stations, covering the most common station architectures. The number of platforms varies between 1 and 2, while the number of tracks lies between 1 and 4, for each station. Every station type was manually textured in 5 different variations to get a total of 50 unique station environments. 
 
-<img align="left" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%2011.png">&nbsp;
+<img align="left" width="500" height="" src="Result%20images/Simulation%20images/Example%20station%2011.png">&nbsp;
 
-<img align="left" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%203.png">&nbsp;
+<img align="left" width="500" height="" src="Result%20images/Simulation%20images/Example%20station%203.png">&nbsp;
 
 Furthermore, we include a variety of different human models as well as station objects like benches, snack machines, stairs, rubbish bins etc. Using our Script-UI you can further expand the amount of different station objects and station types. Once you press on the Unity play button, the algorithm starts to generate the station environments by randomly generating and placing the human models and station objects along the subway station. Once the scenario is generated, the algorithm takes a screenshot and saves the image to a predefined folder within the project folder. Since we are training a semantic segmentation algorithm we also need to generate the ground truth labels. To do so, our algorithm replaces all station objects and the station itself with white textured versions of those objects. The human models are replaced with green, yellow and red versions of the human models based on their location within the subway station. If they are staying on the railroads, they are painted in red. If they are staying in front of the security line, they are painted in yellow. In all other cases, the human models are replaced with green ones. Finally, our algorithm takes another screenshot and stores the image as the ground truth label in a separate folder within the project folder.
 <img align="left" width="390" height="" src="Result%20images/Simulation%20images/Human%20models.png">
