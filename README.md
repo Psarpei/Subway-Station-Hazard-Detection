@@ -33,6 +33,8 @@ Furthermore, we include a variety of different human models as well as station o
 <img align="left" width="390" height="" src="Result%20images/Simulation%20images/Human%20models.png">
 <img align="right" width="390" height="" src="Result%20images/Simulation%20images/Station%20objects.png">
 
+### Semantic Segmentation using SegNet ###
+
 ## Publications ##
   * **[ResearchGate](https://www.researchgate.net/publication/344830620_Subway_Station_Hazard_Detection)**
   
@@ -53,10 +55,4 @@ Furthermore, we include a variety of different human models as well as station o
 
 <img align="center" width="1000" height="" src="Result%20images/Simulation%20images/Station%20and%20ground%20truth%202.jpg">
 
-<img align="left" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%2011.png">
-<img align="right" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%203.png">
-
 <img align="center" width="1000" height="" src="Result%20images/Simulation%20images/Station%20and%20ground%20truth%201.jpg">
-
-<img align="left" width="390" height="" src="Result%20images/Simulation%20images/Human%20models.png">
-<img align="right" width="390" height="" src="Result%20images/Simulation%20images/Station%20objects.png">
