@@ -52,9 +52,6 @@ Description of our Deep Learning Architecture.
 <img align="center" width="1000" height="" src="Result%20images/Segmentation%20images/Segmentation%205.jpg">
 <img align="center" width="1000" height="" src="Result%20images/Segmentation%20images/Segmentation%204.png">
 
-<img align="left" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%20scenario%201.jpg">
-<img align="right" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%209.png">
-
 <img align="center" width="1000" height="" src="Result%20images/Simulation%20images/Station%20and%20ground%20truth%202.jpg">
 
 <img align="center" width="1000" height="" src="Result%20images/Simulation%20images/Station%20and%20ground%20truth%201.jpg">
