@@ -11,7 +11,7 @@
   * **[Goethe University](http://www.informatik.uni-frankfurt.de/index.php/en/)**
   * **[AISEL - AI Systems Engineering Lab](http://www.ccc.cs.uni-frankfurt.de/)**
   
-**Project team:**
+**Project team (A-Z):**
 * Pascal Fischer
 * Felix Hoffman
 * Edis Kurtanovic
