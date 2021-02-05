@@ -26,10 +26,10 @@ Recently there was a nationwide scandal about an incident at Frankfurt Central S
 For our simulation we developed 10 different types of subway stations, covering the most common station architectures. The number of platforms varies between 1 and 2, while the number of tracks lies between 1 and 4, for each station. Every station type was manually textured in 5 different variations to get a total of 50 unique station environments. 
 &nbsp;
 &nbsp;
-<img align="left" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%2011.png">
+<img align="left" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%2011.png">&nbsp;
 &nbsp;
 &nbsp;
-<img align="left" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%203.png">
+<img align="left" width="390" height="" src="Result%20images/Simulation%20images/Example%20station%203.png">&nbsp;
 &nbsp;
 &nbsp;
 
