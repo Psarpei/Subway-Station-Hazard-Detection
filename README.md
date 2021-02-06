@@ -12,11 +12,11 @@
   * **[AISEL - AI Systems Engineering Lab](http://www.ccc.cs.uni-frankfurt.de/)**
   
 **Project team (A-Z):**
-* Pascal Fischer
+* [Pascal Fischer](https://github.com/Psarpei)
 * Felix Hoffman
 * Edis Kurtanovic
 * Martin Ludwig
-* Alen Smajic
+* [Alen Smajic](https://github.com/alen-smajic/)
   
 ## Project Description ##
 <img align="center" width="1000" height="" src="Documentation%20and%20final%20presentation/System%20concept.png">
