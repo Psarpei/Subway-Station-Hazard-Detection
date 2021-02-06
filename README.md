@@ -46,7 +46,7 @@ Furthermore, we include a variety of different human models as well as station o
 <p align="right">                                                                                                                    
    <img align="right" width="390" height="" src="Result%20images/Script-UI%20Screenshot.png">
 </p>
-Here is a description of the Script-UI.
+On the right side you can see our Script-UI which is used to controll the simulation. It contains a camera object which is used to take the screenshots. Upon activating the first checkbox "Use Distribution" the simulation produces a more realistic scenario where the persons are distributed along the station in a more realistic way (less probability to stay on the railtracks). The second checkbox "Create Samples" is used to create a random scene from the simulation and freezes it (this is mostly used for testing purposes once we add new objects to the simulation). The option "Number Of Stations" defines how many station architecture types are used by the simulation (in this case 10 since we implemented 10 different station architectures). The option "Number Of Scenes" defines how many different scenes are generated on the same station environment (station architecture with unique texture environment plus station objects). The "Number of Types" option is used to define the amount of unique texture environments for each station architecture.
 
 <br/><br/>
 <br/><br/>
