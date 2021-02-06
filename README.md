@@ -44,7 +44,7 @@ Furthermore, we include a variety of different human models as well as station o
 <br/><br/>
 
 <p align="right">                                                                                                                    
-   <img align="left" width="390" height="" src="Result%20images/Script-UI%20Screenshot.png">
+   <img align="right" width="390" height="" src="Result%20images/Script-UI%20Screenshot.png">
 </p>
 Here is a description of the Script-UI.
 
