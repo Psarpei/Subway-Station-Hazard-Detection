@@ -43,6 +43,11 @@ Furthermore, we include a variety of different human models as well as station o
 <br/><br/>
 <br/><br/>
 
+<p align="right">                                                                                                                    
+   <img align="left" width="390" height="200" src="Result%20images/Script-UI%20Screenshot.png">
+</p>
+Here is a description of the Script-UI.
+
 ### Semantic Segmentation using SegNet ###
 
 Description of our Deep Learning Architecture.
