@@ -137,7 +137,7 @@ You only have to change the following paths:
 
 * model weights
 * input image
-* taget image
+* target image
 
 check it out 
 
