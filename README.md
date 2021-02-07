@@ -104,14 +104,14 @@ with the following parameters
 
 example execution with 41.000 input/target images:
 
-    python3 test_parse.py --input=data/training --target=data/target --content=output --train_tensor_size=2000 --val_tensor_size=1000 --num_train_tensors=20  model_weights=model.pt
+    python3 test_parse.py --input=data/training --target=data/target --content=data/output --train_tensor_size=2000 --val_tensor_size=1000 --num_train_tensors=20  model_weights=model.pt
     
 configuration from example execution:
 
-* ```input_path data/training```
-* ```target_path data/target```
-* ```content_path output```
-* ```batch_size 2000```
+* ```input_path=data/training```
+* ```target_path=data/target```
+* ```content_path=data/output```
+* ```batch_size=2000```
 * ```train_tensor_size=20```
 * ```val_tensor_size=1000```
 * ```num_train_tensors=20```
@@ -122,6 +122,12 @@ configuration from example execution:
 * ```weight_decay=400000.0```
 * ```total_epochs=50```
 * ```save_cycle=5```
+
+for ```Subwaystation_Segmentation.ipynb``` its the equivalent for google-colab. You can set all the parameters in the configuration cell.
+<a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab_Notebooks/Subwaystation_Segmentation.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 
 ## Results ##
 <img align="center" width="1000" height="" src="Result%20images/Segmentation%20images/Segmentation%205.jpg">
