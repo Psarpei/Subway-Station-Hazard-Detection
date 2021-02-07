@@ -17,7 +17,18 @@
 * Edis Kurtanovic
 * Martin Ludwig
 * [Alen Smajic](https://github.com/alen-smajic/)
+
+## Publications ##
+  * **[ResearchGate](https://www.researchgate.net/publication/344830620_Subway_Station_Hazard_Detection)**
   
+## Tools ## 
+* Python 3
+* PyTorch Framework
+* Unity3D
+* C#
+* Blender
+* OpenCV
+
 ## Project Description ##
 <img align="center" width="1000" height="" src="Documentation%20and%20final%20presentation/System%20concept.png">
 Recently there was a nationwide scandal about an incident at Frankfurt Central Station in which a boy was pushed onto the railroad tracks in front of an arriving train and lost  his life due to its injuries. However, this incident is not the only one of its kind because such accidents occur from time to time at train stations. At the moment there are no security systems to prevent such accidents, and cameras only exist to provide evidence or clarification after an incident has already happened. In this project, we developed a first prototype of a security system which uses the surveillance cameras at subway stations in combination with the latest deep learning computer vision methods and integrates them into an end-to-end system, which can recognize dangerous situations and initiate measures to prevent further consequences.  Furthermore, we present a 3D subway station simulation, developed in Unity3D, which generates entire train station environments and scenes using an advanced algorithm trough a real data-based distribution of persons.  This simulation is then used to generate training data for the deep learning model. 
@@ -53,20 +64,47 @@ On the right side you can see our Script-UI which is used to controll the simula
 <br/><br/>
 <br/><br/>
 
-### Semantic Segmentation using SegNet ###
+### Semantic Segmentation using [SegNet](https://arxiv.org/pdf/1505.07293.pdf) ###
 
-Description of our Deep Learning Architecture.
+For detecting a hazard on the subway station we are using semantic segmentation to classify each pixel of an image to one of the following classes:
 
-## Publications ##
-  * **[ResearchGate](https://www.researchgate.net/publication/344830620_Subway_Station_Hazard_Detection)**
-  
-## Tools ## 
-* Python 3
-* PyTorch Framework
-* Unity
-* C#
-* Blender
+* white - background
+* black - security line
+* green - character in save area
+* yellow - character near the dangerous area
+* red - character in the dangerous area
 
+**Training**
+
+To train the [SegNet](https://arxiv.org/pdf/1505.07293.pdf) there are 2 scripts available:
+
+* ```SUBWAY_SEGMENTATION.py```
+* ```Subwaystation_Segmentation.ipynb```
+
+For both you only need a folder with the input images and another one with the target images.
+To start the training you only should execute:
+
+    python3 SUBWAY_SEGMENTATION.py
+    
+with the following parameters
+
+* ```--input path``` to img input data directory
+* ```--target path``` to img target data directory
+* ```--content path``` where the train/validation tensors, model_weights, losses, validation will be saved, ```default="/"```
+* ```--train_tensor_size``` number of images per training_tensor (should be True: ```train_tensor_size % batch_size == 0```)
+* ```--val_tensor_size``` help='number of images per training_tensor (should be True: ```train_tensor_size % batch_size == 0```)
+* ```--num_train_tensors``` help='number of train tensors (should be True: ```train_tensor_size * num_train_tensors + val_tensor_size == |images|```)
+* ```--model_weights``` path where your model weights will be loaded, if not defined new weights will initialized
+* ```--epochs number``` of training epochs, ```default=50```
+* ```--batch_size``` batch size for training, ```default=8```
+* ```--learn_rate``` learning rate for training, ```default=0.0001```
+* ```--momentum``` momentum for stochastic gradient descent, ```default=0.9```
+* ```--save_cycle``` save model, loss, validation every save_cycle epochs, ```default=5```
+* ```--weight_decay``` weight_decay for stochastic gradient descent, ```default= 4e5```
+
+example execution:
+
+    python3 test_parse.py --input=data/training --target=data/target --content=output --train_tensor_size=2000 --val_tensor_size=1000 --num_train_tensors=20  model_weights=model.pt
 ## Results ##
 <img align="center" width="1000" height="" src="Result%20images/Segmentation%20images/Segmentation%205.jpg">
 <img align="center" width="1000" height="" src="Result%20images/Segmentation%20images/Segmentation%204.png">
