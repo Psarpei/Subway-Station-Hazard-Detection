@@ -123,11 +123,10 @@ configuration from example execution:
 * ```total_epochs=50```
 * ```save_cycle=5```
 
-for ```Subwaystation_Segmentation.ipynb``` its the equivalent for google-colab. You can set all the parameters in the configuration cell.
-
-check it out: <a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab_Notebooks/Subwaystation_Segmentation.ipynb">
+for ```Subwaystation_Segmentation.ipynb``` <a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab_Notebooks/Subwaystation_Segmentation.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+</a> its the equivalent for google-colab. You can set all the parameters in the configuration cell.
+
 
 
 ## Results ##
