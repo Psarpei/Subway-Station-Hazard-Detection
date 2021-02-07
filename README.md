@@ -123,11 +123,27 @@ configuration from example execution:
 * ```total_epochs=50```
 * ```save_cycle=5```
 
-for ```Subwaystation_Segmentation.ipynb``` <a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab_Notebooks/Subwaystation_Segmentation.ipynb">
+for ```Subwaystation_Segmentation.ipynb``` its the equivalent for google-colab. You can set all the parameters in the configuration cell.
+
+<a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab_Notebooks/Subwaystation_Segmentation.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a> its the equivalent for google-colab. You can set all the parameters in the configuration cell.
+</a>
 
+**Predict**
 
+To predict from the trained model we provide the google-colab notebook ```Subway_Segmentation_Predict.ipynb```, which is self explained.
+
+You only have to change the following paths:
+
+* model weights
+* input image
+* taget image
+
+check it out 
+
+<a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab_Notebooks/Subway_Segmentation_Predict.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ## Results ##
 <img align="center" width="1000" height="" src="Result%20images/Segmentation%20images/Segmentation%205.jpg">
