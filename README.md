@@ -62,8 +62,6 @@ Because of memory space issues we had to implement our algorithm to work only at
 The following 8 options (starting with "Min Persons" and ending with "Max Snacks") are used to threshold the algorithm to how many instances of the different object classes should be generated. The min options specify the minimum number and the max options specify the maximum number of objects which are generated for the scenario. The algorithm picks randomly a number in between. 
 The following dropdown options are simple lists which are used to store each gameobject which will be used for generating the scene. It is very important that every gameobject is assigned to the correct list. Notice that there are 4 different "Chars" lists. This is because every human model has to contain also it green, yellow and red painted twin in the segmentation scenario. This also applies for other objects from the station.
 
-<br/><br/>
-
 ### Datasets ####
 
 * The full dataset with uniform distributed persons on the stations is available [here](https://drive.google.com/drive/folders/1QWc8qHPNCtirC2PKcNBOb_mIcEepQ4jy?usp=sharing)
