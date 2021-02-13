@@ -143,7 +143,7 @@ You only have to change the following paths:
 
 check it out 
 
-<a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab_Notebooks/Subway_Segmentation_Predict.ipynb">
+<a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab Notebooks (Scripts)/Subway_Segmentation_Predict.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
