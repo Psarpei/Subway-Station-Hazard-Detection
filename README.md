@@ -57,14 +57,11 @@ Furthermore, we include a variety of different human models as well as station o
 <p align="right">                                                                                                                    
    <img align="right" width="390" height="" src="Result%20images/Script-UI%20Screenshot.png">
 </p>
-On the right side you can see our Script-UI which is used to controll the simulation. It contains a camera object which is used to take the screenshots. Upon activating the first checkbox "Use Distribution" the simulation produces a more realistic scenario where the persons are distributed along the station using a real data-based distribution of persons (you can read more about it in the report). The second checkbox "Create Samples" is used to create a random scene from the simulation and freezes it (this is mostly used for testing purposes once we add new objects to the simulation). 
+On the right side you can see our Script-UI which is used to controll the simulation. It contains a camera object which is used to take the screenshots. Upon activating the first checkbox "Use Distribution" the simulation produces a more realistic scenario where the persons are distributed along the station using a real data-based distribution of persons (you can read more about it in the report). The second checkbox "Create Samples" is used to create a random scene from the simulation and to freeze it (this is mostly used for testing purposes once we add new objects to the simulation). 
 Because of memory space issues we had to implement our algorithm to work only at one station type (out of 50) at the time. You can specify which station type should be used as background in the last option called "Type Index". 
 The following 8 options (starting with "Min Persons" and ending with "Max Snacks") are used to threshold the algorithm to how many instances of the different object classes should be generated. The min options specify the minimum number and the max options specify the maximum number of objects which are generated for the scenario. The algorithm picks randomly a number in between. 
 The following dropdown options are simple lists which are used to store each gameobject which will be used for generating the scene. It is very important that every gameobject is assigned to the correct list. Notice that there are 4 different "Chars" lists. This is because every human model has to contain also it green, yellow and red painted twin in the segmentation scenario. This also applies for other objects from the station.
 
-
-<br/><br/>
-<br/><br/>
 <br/><br/>
 <br/><br/>
 
