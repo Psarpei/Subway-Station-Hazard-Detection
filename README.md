@@ -63,7 +63,6 @@ The following 8 options (starting with "Min Persons" and ending with "Max Snacks
 The following dropdown options are simple lists which are used to store each gameobject which will be used for generating the scene. It is very important that every gameobject is assigned to the correct list. Notice that there are 4 different "Chars" lists. This is because every human model has to contain also it green, yellow and red painted twin in the segmentation scenario. This also applies for other objects from the station.
 
 <br/><br/>
-<br/><br/>
 
 ### Datasets ####
 
