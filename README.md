@@ -127,7 +127,7 @@ configuration from example execution:
 
 The ```Subwaystation_Segmentation.ipynb``` is the equivalent version for google-colab. You can set all the parameters in the configuration cell.
 
-<a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab_Notebooks/Subwaystation_Segmentation.ipynb">
+<a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab Notebooks (Scripts)/Subwaystation_Segmentation.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
