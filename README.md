@@ -64,27 +64,27 @@ The following dropdown options are simple lists which are used to store each gam
 
 ### Datasets ####
 
-* The full dataset with uniform distributed persons on the stations is available [here](https://drive.google.com/drive/folders/1QWc8qHPNCtirC2PKcNBOb_mIcEepQ4jy?usp=sharing)
-* The full dataset with our own distribution (more information in our) for persons on the stations is available [here](https://drive.google.com/drive/folders/1JZ6PK5veVjP6tqiLZnq6TZdRxIqgvGTe?usp=sharing)  
+* You can download our dataset with randomly distributed chrachters [here](https://drive.google.com/drive/folders/1QWc8qHPNCtirC2PKcNBOb_mIcEepQ4jy?usp=sharing)
+* You can download our dataset with a real data-based distribution of charachters [here](https://drive.google.com/drive/folders/1JZ6PK5veVjP6tqiLZnq6TZdRxIqgvGTe?usp=sharing)  
 ### Semantic Segmentation using [SegNet](https://arxiv.org/pdf/1505.07293.pdf) ###
 
-For detecting a hazard on the subway station we are using semantic segmentation to classify each pixel of an image to one of the following classes:
+For detecting dangerous situations on subway station, we are using semantic segmentation in order to classify each pixel of an image to one of the following classes:
 
 * white - background
 * black - security line
-* green - character in save area
-* yellow - character near the dangerous area
-* red - character in the dangerous area
+* green - characters in safe area
+* yellow - characters crossing the security line
+* red - characters in the dangerous area (railroads)
 
 **Training**
 
-To train the [SegNet](https://arxiv.org/pdf/1505.07293.pdf) there are 2 scripts available:
+Fir training the [SegNet](https://arxiv.org/pdf/1505.07293.pdf) there are 2 scripts available:
 
 * ```SUBWAY_SEGMENTATION.py```
 * ```Subwaystation_Segmentation.ipynb```
 
-For both you only need a folder with the input images and another one with the target images.
-To start the training you only should execute:
+For both you need a folder with input images and another with the target images.
+To start the training you need to execute:
 
     python3 SUBWAY_SEGMENTATION.py
     
