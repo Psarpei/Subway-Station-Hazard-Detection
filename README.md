@@ -12,11 +12,11 @@
   * **[AISEL - AI Systems Engineering Lab](http://www.ccc.cs.uni-frankfurt.de/)**
   
 **Project team (A-Z):**
-* [Pascal Fischer](https://github.com/Psarpei)
+* Pascal Fischer
 * Felix Hoffman
 * Edis Kurtanovic
 * Martin Ludwig
-* [Alen Smajic](https://github.com/alen-smajic/)
+* Alen Smajic
 
 ## Publications ##
   * **[ResearchGate](https://www.researchgate.net/publication/344830620_Subway_Station_Hazard_Detection)**
