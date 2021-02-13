@@ -60,7 +60,7 @@ Furthermore, we include a variety of different human models as well as station o
 On the right side you can see our Script-UI which is used to controll the simulation. It contains a camera object which is used to take the screenshots. Upon activating the first checkbox "Use Distribution" the simulation produces a more realistic scenario where the persons are distributed along the station using a real data-based distribution of persons (you can read more about it in the report). The second checkbox "Create Samples" is used to create a random scene from the simulation and to freeze it (this is mostly used for testing purposes once we add new objects to the simulation). 
 Because of memory space issues we had to implement our algorithm to work only at one station type (out of 50) at the time. You can specify which station type should be used as background in the last option called "Type Index". Furthermore, you can specify how many different station environments should be generated ("Number of Types" option) and how many different scenes with people should be generated ("Number of Scenes" option).
 The following 8 options (starting with "Min Persons" and ending with "Max Snacks") are used to threshold the algorithm to how many instances of the different object classes should be generated. The min options specify the minimum number and the max options specify the maximum number of objects which are generated for the scenario. The algorithm picks randomly a number in between. 
-The following dropdown options are simple lists which are used to store each gameobject which will be used for generating the scene. It is very important that every gameobject is assigned to the correct list. Notice that there are 4 different "Chars" lists. This is because every human model has to contain also it green, yellow and red painted twin in the segmentation scenario. This also applies for other objects from the station, which are painted in white because they represent the background (these objects are stored in the "Target" lists).
+The following dropdown options are simple lists which are used to store each gameobject which will be used for generating the scene. It is very important that every gameobject is assigned to the correct list. Notice that there are 4 different "Chars" lists. This is because every human model has to contain also its green, yellow and red painted twin in the segmentation scenario. This also applies for other objects from the station, which are painted in white because they represent the background (these objects are stored in the "Target" lists).
 
 ### Datasets ####
 
@@ -78,7 +78,7 @@ For detecting dangerous situations on subway station, we are using semantic segm
 
 **Training**
 
-Fir training the [SegNet](https://arxiv.org/pdf/1505.07293.pdf) there are 2 scripts available:
+For training the [SegNet](https://arxiv.org/pdf/1505.07293.pdf) there are 2 scripts available:
 
 * ```SUBWAY_SEGMENTATION.py```
 * ```Subwaystation_Segmentation.ipynb```
@@ -92,11 +92,11 @@ with the following parameters
 
 * ```--input path``` to img input data directory
 * ```--target path``` to img target data directory
-* ```--content path``` where the train/validation tensors, model_weights, losses, validation will be saved, ```default="/"```
+* ```--content path``` where the train/validation tensors, model_weights, losses and validation results will be saved, ```default="/"```
 * ```--train_tensor_size``` number of images per training_tensor (should be True: ```train_tensor_size % batch_size == 0```)
-* ```--val_tensor_size``` help='number of images per training_tensor (should be True: ```train_tensor_size % batch_size == 0```)
-* ```--num_train_tensors``` help='number of train tensors (should be True: ```train_tensor_size * num_train_tensors + val_tensor_size == |images|```)
-* ```--model_weights``` path where your model weights will be loaded, if not defined new weights will initialized
+* ```--val_tensor_size``` number of images per training_tensor (should be True: ```train_tensor_size % batch_size == 0```)
+* ```--num_train_tensors``` number of train tensors (should be True: ```train_tensor_size * num_train_tensors + val_tensor_size == |images|```)
+* ```--model_weights``` path where your model weights will be loaded, if not defined new weights will be initialized
 * ```--epochs number``` of training epochs, ```default=50```
 * ```--batch_size``` batch size for training, ```default=8```
 * ```--learn_rate``` learning rate for training, ```default=0.0001```
@@ -125,7 +125,7 @@ configuration from example execution:
 * ```total_epochs=50```
 * ```save_cycle=5```
 
-for ```Subwaystation_Segmentation.ipynb``` its the equivalent for google-colab. You can set all the parameters in the configuration cell.
+The ```Subwaystation_Segmentation.ipynb``` is the equivalent version for google-colab. You can set all the parameters in the configuration cell.
 
 <a href="https://colab.research.google.com/github/alen-smajic/Subway-Station-Hazard-Detection/blob/main/Colab_Notebooks/Subwaystation_Segmentation.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
@@ -133,7 +133,7 @@ for ```Subwaystation_Segmentation.ipynb``` its the equivalent for google-colab. 
 
 **Predict**
 
-To predict from the trained model we provide the google-colab notebook ```Subway_Segmentation_Predict.ipynb```, which is self explained.
+To predict from the trained model we provide the google-colab notebook ```Subway_Segmentation_Predict.ipynb```, which is self explanatory.
 
 You only have to change the following paths:
 
