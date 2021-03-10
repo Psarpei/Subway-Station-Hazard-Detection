@@ -152,6 +152,7 @@ check it out
 You can download the model weights [here](https://drive.google.com/drive/folders/18OpD-W43YPQ6Ye-P7SzBZTCOUqGaA6aX?usp=sharing)
 
 ## Results ##
+
 <img align="center" width="1000" height="" src="Result%20images/Segmentation%20images/Segmentation%205.jpg">
 <img align="center" width="1000" height="" src="Result%20images/Segmentation%20images/Segmentation%204.png">
 
