@@ -149,7 +149,7 @@ check it out
 
 ## Model Weights ##
 
-You can download the model weights [here](https://drive.google.com/drive/folders/18OpD-W43YPQ6Ye-P7SzBZTCOUqGaA6aX?usp=sharing)
+You can download the model weights [here](https://drive.google.com/drive/folders/1uzCz8VRzHL0DJ4E2R4gR19LVtRTjRRXO?usp=sharing)
 
 ## Results ##
 
